@@ -22,7 +22,6 @@ y = m.radians(1)
 first = 1/4 * (m.sin(a + b - y) + m.sin(b + y - a) + \
         m.sin(y + a - b) - m.sin(a + b + y))
 
-result = m.degrees(first)
 second = m.sin(m.radians(1))
 
-print('Результат вычисления второго выражения: ', result, second)
+print('Результат вычисления второго выражения: ', first, second)
